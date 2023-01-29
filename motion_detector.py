@@ -2,6 +2,7 @@ import cv2
 import numpy as np
 
 # Create video capture object
+# https://www.youtube.com/watch?v=fe9-qz3jsgs (freeway1.mp4)
 cap = cv2.VideoCapture("freeway1.mp4")
 ker = None
 background = cv2.createBackgroundSubtractorMOG2(detectShadows = True)
